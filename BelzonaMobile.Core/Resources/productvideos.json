@@ -1,0 +1,29 @@
+[
+ {
+   "ProductId": 1,
+   "LanguageId": 1,
+   "VideoUrl": "https://youtu.be/I00-52OPi6w",
+   "Title": "Flange repair and protection with Belzona 1111",
+   "Thumbnail": "https://i.ytimg.com/vi/I00-52OPi6w/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLDEjEN7kmoJAgZt_0eCmN8yVo6B6w",
+   "Duration": "3:49",
+   "Description": "Flanges can be easily repair and protected against erosion using Belzona 1111 (Super Metal), a polymer based repair composite that can be applied in-situ without hot work.\n\nFlange faces can be easily damaged by corrosive fluids, crevice and galvanic corrosion, and heat distortion which cause leaks and consequent loss of containment. Leaks caused by a loose seal on a damaged flange face can often result in health and safety hazards, downtime, clean up and disposal costs and costly repair or replacement.\n\nBelzona 1111 (Super Metal) allows a simple and quick repair and protection of damaged flanges. This repair compound based on a ceramic steel reinforced epoxy system can be cold applied in-situ without the need of specialist tools, avoiding the need to weld a new flange and the associated implications related to hot work. At the same time, Belzona 1111 (Super Metal) minimises further galvanic and crevice corrosion problems to which the flanges are particularly susceptible to."
+ },
+ {
+   "ProductId": 1,
+   "LanguageId": 1,
+   "VideoUrl": "https://youtu.be/UUwMhU1ZBBM",
+   "Title": "HOW-TO SERIES: How to Rebuild an Oversized Keyway with Belzona 1111",
+   "Thumbnail": "https://i.ytimg.com/vi/UUwMhU1ZBBM/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLDZHv1444dfmq3BjD-t9_zGxxwBdw",
+   "Duration": "3:00",
+   "Description": "Keyways become worn and oversized due to constant pressure from starting and stopping, causing vibration, misalignment and stress on couplings. Belzona epoxy composite materials are designed to repair and prevent these common failures to mechanical power transmission equipment. Using a new key as a former, a perfect zero-tolerance fit is created. This simple repair saves time and money, while quickly returning the equipment to operation. In this video, we demonstrate to you how you can rebuild an oversized keyway with Belzona 1111"
+ },
+ {
+   "ProductId": 1,
+   "LanguageId": 1,
+   "VideoUrl": "https://youtu.be/y-AT8f9J4_E",
+   "Title": "HOW-TO SERIES: How to Repair a Cracked Engine with Belzona",
+   "Thumbnail": "https://i.ytimg.com/vi/y-AT8f9J4_E/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLBpwuT37uqO-ZQQAvUD2cnDGRa0IQ",
+   "Duration": "3:02",
+   "Description": "A cracked engine block in a vehicle is not uncommon and certainly does not mean the end of the engines lifespan. There are various methods of repairing cracked engine blocks: from welding and brazing, to cold metal stitching. In this short video, you will learn how to repair a cracked engine block using Belzona in less than an hour"
+ }
+]

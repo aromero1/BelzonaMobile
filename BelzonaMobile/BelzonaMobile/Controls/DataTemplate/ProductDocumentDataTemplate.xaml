@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ViewCell xmlns="http://xamarin.com/schemas/2014/forms" 
+xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+x:Class="BelzonaMobile.Controls.ProductDocumentDataTemplate"
+xmlns:CC="clr-namespace:BelzonaMobile.Controls;assembly=BelzonaMobile" 
+>
+	<AbsoluteLayout >
+    <CC:FAIcon TextColor="#df360e"
+               Text="{x:Static CC:FA.FAPdf}"
+               AbsoluteLayout.LayoutFlags="YProportional"
+               AbsoluteLayout.LayoutBounds="15,.5,-1,-1"
+               FontSize="25"
+               />
+    <CC:FAIcon TextColor="#C8C8C8"
+               Text="{x:Static CC:FA.FAChevronRight}"
+               AbsoluteLayout.LayoutFlags="PositionProportional"
+               AbsoluteLayout.LayoutBounds="1,.5,-1,-1"
+               Margin="0,0,20,0"
+               FontSize="25"
+    />
+    <Label  AbsoluteLayout.LayoutFlags="YProportional" AbsoluteLayout.LayoutBounds="50,.5,-1,-1" Text="{Binding ProductDocumentType.Name}"/>
+    <BoxView BackgroundColor="{DynamicResource BelzonaSilver}" AbsoluteLayout.LayoutFlags="YProportional, WidthProportional" AbsoluteLayout.LayoutBounds="0,1,1,1" />
+    </AbsoluteLayout>
+</ViewCell>

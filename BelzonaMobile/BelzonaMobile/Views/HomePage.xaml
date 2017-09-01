@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+xmlns:prism="clr-namespace:Prism.Mvvm;assembly=Prism.Forms" 
+prism:ViewModelLocator.AutowireViewModel="True" 
+x:Class="BelzonaMobile.Views.HomePage" 
+BackgroundColor="{DynamicResource BelzonaBlue}" 
+Title="BELZONA" 
+xmlns:CC="clr-namespace:BelzonaMobile.Controls;assembly=BelzonaMobile"
+>
+    <ContentPage.Content>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            <CC:HomeMenuButton 
+                Text="{Binding ProductButtonTitle}"
+                VerticalOptions="Center" 
+                HorizontalOptions="Center"
+                Grid.Column="0" Grid.Row="0"
+                Command="{Binding GotoProductsCommand}"
+            />
+<!--            Icon="{x:Static CC:FA.FACircle}"-->
+            <CC:HomeMenuButton 
+                Text="{Binding IndustriesButtonTitle}"
+                VerticalOptions="Center" 
+                HorizontalOptions="Center" 
+                Grid.Column="1" Grid.Row="0"
+                />
+            <CC:HomeMenuButton  
+                Text="{Binding ApplicationsButtonTitle}" 
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" 
+                Grid.Column="0" Grid.Row="1" 
+                 />
+            <CC:HomeMenuButton  
+                Text="{Binding VideosButtonTitle}" 
+                VerticalOptions="Center" 
+                HorizontalOptions="CenterAndExpand" 
+                Grid.Column="1" Grid.Row="1" 
+                
+                />
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

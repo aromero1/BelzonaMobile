@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ViewCell xmlns="http://xamarin.com/schemas/2014/forms" 
+          xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+          x:Class="BelzonaMobile.Controls.ProductListDataTemplate"
+          xmlns:converters="clr-namespace:BelzonaMobile.Converters;assembly=BelzonaMobile" 
+          xmlns:CC="clr-namespace:BelzonaMobile.Controls;assembly=BelzonaMobile"
+
+>
+
+	<ViewCell.View>
+    
+    <AbsoluteLayout>
+     <AbsoluteLayout.Resources>
+        <ResourceDictionary>
+            <converters:ImageUrlConverter x:Key="imageUrlConverter" /> 
+        </ResourceDictionary>
+    </AbsoluteLayout.Resources>
+    <Image Source="{Binding Thumbnail, Converter={StaticResource imageUrlConverter}}"
+    HeightRequest="60"
+     AbsoluteLayout.LayoutFlags="YProportional" AbsoluteLayout.LayoutBounds="10,.5,-1,-1" 
+    />
+    
+    <Label Text="{Binding Name}"  FontSize="16" TextColor="Black" AbsoluteLayout.LayoutBounds="100,5,-1,-1" />
+    <CC:ThreeLineLabel Text="{Binding ShortDescription}" FontSize="10" 
+                       AbsoluteLayout.LayoutBounds="0,30,1,-1" 
+                       AbsoluteLayout.LayoutFlags="WidthProportional" 
+                       Margin="100,0,40,0" />
+    <CC:FAIcon Text="{x:Static CC:FA.FAChevronRight}"
+               AbsoluteLayout.LayoutFlags="PositionProportional"
+               AbsoluteLayout.LayoutBounds="1,.5,-1,-1"
+               Margin="0,0,10,0"
+               TextColor="#80000000"
+    />
+    <BoxView BackgroundColor="Gray" AbsoluteLayout.LayoutFlags="PositionProportional,WidthProportional" AbsoluteLayout.LayoutBounds="0,1,1,1"/>
+    
+    </AbsoluteLayout>
+    </ViewCell.View>
+</ViewCell>

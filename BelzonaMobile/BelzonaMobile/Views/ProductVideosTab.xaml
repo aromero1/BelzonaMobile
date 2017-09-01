@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             x:Class="BelzonaMobile.Views.ProductVideosTab"
+             xmlns:CC="clr-namespace:BelzonaMobile.Controls;assembly=BelzonaMobile"
+             >
+	<ContentView.Content>
+    <ListView RowHeight="90" 
+              SeparatorColor="Transparent" 
+              SeparatorVisibility="None" 
+              ItemsSource="{Binding Videos}"
+              SelectedItem="{Binding SelectedVideo}"
+              >
+    <ListView.ItemTemplate>
+        <DataTemplate>
+            <CC:ProductVideoDataTemplate />
+        </DataTemplate>
+        </ListView.ItemTemplate>
+    </ListView>
+	</ContentView.Content>
+</ContentView>
