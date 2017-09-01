@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             x:Class="BelzonaMobile.Views.ProductDocumentTab"
+             xmlns:CC="clr-namespace:BelzonaMobile.Controls;assembly=BelzonaMobile"
+             xmlns:converters="clr-namespace:BelzonaMobile.Converters;assembly=BelzonaMobile"
+             >
+	<ListView ItemsSource="{Binding Product.Documents}" RowHeight="60" SeparatorVisibility="None" SeparatorColor="Transparent" SelectedItem="{Binding SelectedDocument}">
+     <ListView.ItemTemplate>
+        <DataTemplate>
+            <CC:ProductDocumentDataTemplate />
+        </DataTemplate>
+        </ListView.ItemTemplate>
+    </ListView>
+</ContentView>

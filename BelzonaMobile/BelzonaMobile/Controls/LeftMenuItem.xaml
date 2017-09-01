@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BelzonaMobile.Controls.LeftMenuItem"
+             xmlns:CC="clr-namespace:BelzonaMobile.Controls;assembly=BelzonaMobile"
+    x:Name="leftMenuItem"
+             >
+  <ContentView.Content>
+  <AbsoluteLayout HeightRequest="60">
+      <StackLayout Orientation="Horizontal" Padding="40,0,0,0" AbsoluteLayout.LayoutBounds="0,.5,1,1" AbsoluteLayout.LayoutFlags="SizeProportional, PositionProportional">
+            <CC:FAIcon x:Name="icon" 
+                       TextColor="White" 
+                       FontSize="40"
+                       VerticalOptions="Center"
+                         />
+            <Label x:Name="textLabel" TextColor="White" FontSize="Large"
+            Text="{Binding Source={x:Reference Name=leftMenuItem}, Path=Text}"
+            VerticalOptions="Center"
+            />
+          
+        </StackLayout>
+        <BoxView BackgroundColor="White" AbsoluteLayout.LayoutFlags="PositionProportional, WidthProportional" AbsoluteLayout.LayoutBounds="0,0,1,1"/>
+        <BoxView BackgroundColor="White" AbsoluteLayout.LayoutFlags="PositionProportional, WidthProportional" AbsoluteLayout.LayoutBounds="0,1,1,1"/>
+    <Button Command="{Binding Source={x:Reference Name=leftMenuItem}, Path=ShowLaguageCommand}" AbsoluteLayout.LayoutFlags="SizeProportional" AbsoluteLayout.LayoutBounds="0,0,1,1" />
+        </AbsoluteLayout>
+  </ContentView.Content>
+</ContentView>

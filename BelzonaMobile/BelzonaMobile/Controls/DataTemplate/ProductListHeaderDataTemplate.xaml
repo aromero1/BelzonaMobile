@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ViewCell xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             x:Class="BelzonaMobile.Controls.ProductListHeaderDataTemplate"
+             xmlns:converters="clr-namespace:BelzonaMobile.Converters;assembly=BelzonaMobile"
+             Height="40"
+             >
+	<ViewCell.View>
+    <AbsoluteLayout BackgroundColor="{Binding Key.SeriesColor}">
+     <AbsoluteLayout.Resources>
+        <ResourceDictionary>
+            <converters:ToSeriesColorConverter x:Key="toSeriesColorConverter" /> 
+            
+        </ResourceDictionary>
+    </AbsoluteLayout.Resources>
+    <Label Text="{Binding Key.Name}" AbsoluteLayout.LayoutFlags="PositionProportional" 
+            AbsoluteLayout.LayoutBounds=".5,.5,-1,-1"
+            TextColor="{Binding Key.Id,Converter={StaticResource toSeriesColorConverter}}"
+    />
+    </AbsoluteLayout>
+    </ViewCell.View>
+</ViewCell>

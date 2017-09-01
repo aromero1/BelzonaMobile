@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Name="homeMenuButton"
+    x:Class="BelzonaMobile.Controls.HomeMenuButton"
+    xmlns:CC="clr-namespace:BelzonaMobile.Controls;assembly=BelzonaMobile"
+    >
+	<ContentView.Content>
+        <AbsoluteLayout>
+        <CC:FAButton
+        AbsoluteLayout.LayoutFlags="PositionProportional"
+        AbsoluteLayout.LayoutBounds=".5,.5,-1,-1"
+        x:Name="mainButton"
+        Text="{Binding Source={x:Reference Name=homeMenuButton}, Path=Icon}"
+        BorderRadius = "40"
+        WidthRequest="80"
+        HeightRequest ="80"
+        FontSize="30"
+        BackgroundColor = "{DynamicResource BelzonaOrange}"
+        TextColor="White"
+            />
+        <Label 
+        AbsoluteLayout.LayoutFlags="XProportional"
+        AbsoluteLayout.LayoutBounds=".5,100,-1,-1"
+        Text ="{Binding Source={x:Reference Name=homeMenuButton}, Path=Text}"
+        TextColor="White" FontSize="20"
+        HorizontalTextAlignment="Center"
+          />
+        <Button Command="{Binding Source={x:Reference Name=homeMenuButton}, Path=Command}"
+        AbsoluteLayout.LayoutFlags="SizeProportional"
+        AbsoluteLayout.LayoutBounds="0,0,1,1" BackgroundColor="Transparent"
+          />
+        </AbsoluteLayout>
+
+	</ContentView.Content>
+</ContentView>

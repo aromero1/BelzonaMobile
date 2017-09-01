@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+xmlns:CC="clr-namespace:BelzonaMobile.Controls;assembly=BelzonaMobile" 
+Title="title" 
+Icon="burger" 
+x:Class="BelzonaMobile.Views.LeftMenu" 
+BackgroundColor="{DynamicResource BelzonaOrange}">
+    <AbsoluteLayout>
+        <StackLayout AbsoluteLayout.LayoutFlags="SizeProportional" AbsoluteLayout.LayoutBounds="0,0,1,1">
+            <Image Margin="0,30,0,0" Source="BelzonaLogo" HorizontalOptions="CenterAndExpand" />
+           <CC:LeftMenuItem Margin="0,30,0,0" Icon="{x:Static CC:FA.FAGlobe}" Text="{Binding LanguageTextDisplay}" ShowLaguageCommand="{Binding ShowLanguageCommand}" />
+        </StackLayout>
+        
+    </AbsoluteLayout>
+</ContentPage>

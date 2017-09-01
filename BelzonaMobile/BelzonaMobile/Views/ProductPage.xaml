@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+xmlns:prism="clr-namespace:Prism.Mvvm;assembly=Prism.Forms" 
+prism:ViewModelLocator.AutowireViewModel="True" 
+x:Class="BelzonaMobile.Views.ProductPage" 
+xmlns:CC="clr-namespace:BelzonaMobile.Controls;assembly=BelzonaMobile"
+Title="{Binding PageTitle}"
+>
+<ContentPage.ToolbarItems>
+  <ToolbarItem Icon="{Binding SearchIcon}" Command="{Binding ShowSearchCommand}" />
+</ContentPage.ToolbarItems>
+
+    <AbsoluteLayout>
+    
+    <ListView ItemsSource="{Binding ProductList}" 
+            IsGroupingEnabled="true" 
+            HasUnevenRows="true"
+            RowHeight="80"
+            AbsoluteLayout.LayoutFlags="SizeProportional"
+            AbsoluteLayout.LayoutBounds="0,0,1,1"
+            SeparatorVisibility="None"
+            SeparatorColor="Transparent"
+            SelectedItem="{Binding ProductSelected}"
+            >
+        <ListView.GroupHeaderTemplate>
+            <DataTemplate>            
+              <CC:ProductListHeaderDataTemplate/>
+            </DataTemplate>
+        </ListView.GroupHeaderTemplate>
+        <ListView.ItemTemplate>
+        
+        <DataTemplate>
+            <CC:ProductListDataTemplate />
+        </DataTemplate>
+        </ListView.ItemTemplate>
+    </ListView>
+    <CC:SearchBar Text="SomeText" 
+                  IsShowing="{Binding ShowSearchBar}" 
+                  SearchCommand="{Binding SearchCommand}"
+                  AbsoluteLayout.LayoutBounds="0,-80,1,-1"
+                  AbsoluteLayout.LayoutFlags="WidthProportional"
+                  />
+    </AbsoluteLayout>
+</ContentPage>

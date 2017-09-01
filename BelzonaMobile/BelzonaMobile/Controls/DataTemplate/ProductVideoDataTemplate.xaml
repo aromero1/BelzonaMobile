@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ViewCell xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             x:Class="BelzonaMobile.Controls.ProductVideoDataTemplate"
+             xmlns:CC="clr-namespace:BelzonaMobile.Controls;assembly=BelzonaMobile"
+             >
+	
+    <AbsoluteLayout>
+    <Image AbsoluteLayout.LayoutBounds="10,.5,-1,-1"
+           AbsoluteLayout.LayoutFlags="YProportional"
+           WidthRequest="110"
+           Source="{Binding snippet.thumbnails.medium.url}"
+            />
+     <CC:FAIcon AbsoluteLayout.LayoutBounds="50,.5,-1,-1"
+            AbsoluteLayout.LayoutFlags="YProportional"
+            TextColor="White"
+            FontSize="30"
+            Text="{x:Static CC:FA.FAPlayCircleO}"
+            />
+            
+    <Label Text="{Binding snippet.title}" 
+           AbsoluteLayout.LayoutFlags="PositionProportional, WidthProportional"
+           AbsoluteLayout.LayoutBounds="0,.5,1,-1"
+           Margin="130,10,30,0" FontSize="14"
+           HorizontalTextAlignment="Start"
+    
+    />
+    <BoxView BackgroundColor="{DynamicResource BelzonaSilver}" 
+             AbsoluteLayout.LayoutFlags="YProportional, WidthProportional" 
+             AbsoluteLayout.LayoutBounds="0,1,1,1" />
+    </AbsoluteLayout>
+    
+    
+</ViewCell>

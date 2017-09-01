@@ -1,0 +1,218 @@
+[
+  {
+    "ProductId": 1,
+    "Name": "Belzona 1111",
+    "ShortDescription": "An epoxy-based composite for metal repair. ",
+    "LanguageId": 1,
+    "SeriesId": 1,
+    "IsActive": 1,
+    "Thumbnail": "thumb_1111_1.jpg"
+  },
+  {
+    "ProductId": 2,
+    "Name": "Belzona 1121",
+    "ShortDescription": "An epoxy-based repair composite with extended working life for metal repair.",
+    "LanguageId": 1,
+    "SeriesId": 1,
+    "IsActive": 1,
+    "Thumbnail": "thumb_1121_1.jpg"
+  },
+  {
+    "ProductId": 3,
+    "Name": "Belzona 1131",
+    "ShortDescription": "A self-lubricating epoxy metal repair composite for creation of low friction surfaces and protection of lubrication systems from wear and seizure.",
+    "LanguageId": 1,
+    "SeriesId": 1,
+    "IsActive": 1,
+    "Thumbnail": "thumb_1131_1.jpg"
+  },
+  {
+    "ProductId": 4,
+    "Name": "Belzona 2111",
+    "ShortDescription": "A flexible abrasion resistant polyurethane elastomer for the repair, rebuilding and coating of rubber components and metal surfaces.",
+    "LanguageId": 1,
+    "SeriesId": 2,
+    "IsActive": 1,
+    "Thumbnail": "thumb_2111_1.jpg"
+  },
+  {
+    "ProductId": 5,
+    "Name": "Belzona 2121",
+    "ShortDescription": "A flexible abrasion resistant polyurethane elastomer for the coating of metal surfaces and rubber components.",
+    "LanguageId": 1,
+    "SeriesId": 2,
+    "IsActive": 1,
+    "Thumbnail": "thumb_2121_1.jpg"
+  },
+  {
+    "ProductId": 6,
+    "Name": "Belzona 2131",
+    "ShortDescription": "A flexible abrasion resistant polyurethane elastomer for the casting of rubber components and coating of metal and rubber surfaces.",
+    "LanguageId": 1,
+    "SeriesId": 2,
+    "IsActive": 1,
+    "Thumbnail": "thumb_2131_1.jpg"
+  },
+  {
+    "ProductId": 7,
+    "Name": "Belzona 3111",
+    "ShortDescription": "A single component, liquid-applied roof coating for long-term roof protection and waterproofing.",
+    "LanguageId": 1,
+    "SeriesId": 3,
+    "IsActive": 1,
+    "Thumbnail": "thumb_3111_1.jpg"
+  },
+  {
+    "ProductId": 8,
+    "Name": "Belzona 3121",
+    "ShortDescription": "A liquid-applied emergency roof repair material providing instant waterproofing of leaking roof areas.",
+    "LanguageId": 1,
+    "SeriesId": 3,
+    "IsActive": 1,
+    "Thumbnail": "thumb_3121_1.jpg"
+  },
+  {
+    "ProductId": 9,
+    "Name": "Belzona 3131",
+    "ShortDescription": "A liquid-applied roof coating for long-term protection and waterproofing of roofs which can be applied during winter weather conditions.",
+    "LanguageId": 1,
+    "SeriesId": 3,
+    "IsActive": 1,
+    "Thumbnail": "thumb_3131_1.jpg"
+  },
+  {
+    "ProductId": 10,
+    "Name": "Belzona 4111",
+    "ShortDescription": "An epoxy repair composite for concrete and stone repair, resurfacing and protection.",
+    "LanguageId": 1,
+    "SeriesId": 4,
+    "IsActive": 1,
+    "Thumbnail": "thumb_4111_1.jpg"
+  },
+  {
+    "ProductId": 11,
+    "Name": "Belzona 4131",
+    "ShortDescription": "An epoxy repair composite for the resurfacing and protection of concrete and stone areas.",
+    "LanguageId": 1,
+    "SeriesId": 4,
+    "IsActive": 1,
+    "Thumbnail": "thumb_4131_1.jpg"
+  },
+  {
+    "ProductId": 12,
+    "Name": "Belzona 4141",
+    "ShortDescription": "A lightweight epoxy repair composite for vertical and overhead concrete and stone repairs.",
+    "LanguageId": 1,
+    "SeriesId": 4,
+    "IsActive": 1,
+    "Thumbnail": "thumb_4141_1.jpg"
+  },
+  {
+    "ProductId": 1,
+    "Name": "Belzona 1111",
+    "ShortDescription": "Español - An epoxy-based composite for metal repair. ",
+    "LanguageId": 3,
+    "SeriesId": 1,
+    "IsActive": 1,
+    "Thumbnail": "thumb_1111_1.jpg"
+  },
+  {
+    "ProductId": 2,
+    "Name": "Belzona 1121",
+    "ShortDescription": "Español - An epoxy-based repair composite with extended working life for metal repair.",
+    "LanguageId": 3,
+    "SeriesId": 1,
+    "IsActive": 1,
+    "Thumbnail": "thumb_1121_1.jpg"
+  },
+  {
+    "ProductId": 3,
+    "Name": "Belzona 1131",
+    "ShortDescription": "Español - A self-lubricating epoxy metal repair composite for creation of low friction surfaces and protection of lubrication systems from wear and seizure.",
+    "LanguageId": 3,
+    "SeriesId": 1,
+    "IsActive": 1,
+    "Thumbnail": "thumb_1131_1.jpg"
+  },
+  {
+    "ProductId": 4,
+    "Name": "Belzona 2111",
+    "ShortDescription": "Español - A flexible abrasion resistant polyurethane elastomer for the repair, rebuilding and coating of rubber components and metal surfaces.",
+    "LanguageId": 3,
+    "SeriesId": 2,
+    "IsActive": 1,
+    "Thumbnail": "thumb_2111_1.jpg"
+  },
+  {
+    "ProductId": 5,
+    "Name": "Belzona 2121",
+    "ShortDescription": "Español - A flexible abrasion resistant polyurethane elastomer for the coating of metal surfaces and rubber components.",
+    "LanguageId": 3,
+    "SeriesId": 2,
+    "IsActive": 1,
+    "Thumbnail": "thumb_2121_1.jpg"
+  },
+  {
+    "ProductId": 6,
+    "Name": "Belzona 2131",
+    "ShortDescription": "Español - A flexible abrasion resistant polyurethane elastomer for the casting of rubber components and coating of metal and rubber surfaces.",
+    "LanguageId": 3,
+    "SeriesId": 2,
+    "IsActive": 1,
+    "Thumbnail": "thumb_2131_1.jpg"
+  },
+  {
+    "ProductId": 7,
+    "Name": "Belzona 3111",
+    "ShortDescription": "Español - A single component, liquid-applied roof coating for long-term roof protection and waterproofing.",
+    "LanguageId": 3,
+    "SeriesId": 3,
+    "IsActive": 1,
+    "Thumbnail": "thumb_3111_1.jpg"
+  },
+  {
+    "ProductId": 8,
+    "Name": "Belzona 3121",
+    "ShortDescription": "Español - A liquid-applied emergency roof repair material providing instant waterproofing of leaking roof areas.",
+    "LanguageId": 3,
+    "SeriesId": 3,
+    "IsActive": 1,
+    "Thumbnail": "thumb_3121_1.jpg"
+  },
+  {
+    "ProductId": 9,
+    "Name": "Belzona 3131",
+    "ShortDescription": "Español - A liquid-applied roof coating for long-term protection and waterproofing of roofs which can be applied during winter weather conditions.",
+    "LanguageId": 3,
+    "SeriesId": 3,
+    "IsActive": 1,
+    "Thumbnail": "thumb_3131_1.jpg"
+  },
+  {
+    "ProductId": 10,
+    "Name": "Belzona 4111",
+    "ShortDescription": "Español - An epoxy repair composite for concrete and stone repair, resurfacing and protection.",
+    "LanguageId": 3,
+    "SeriesId": 4,
+    "IsActive": 1,
+    "Thumbnail": "thumb_4111_1.jpg"
+  },
+  {
+    "ProductId": 11,
+    "Name": "Belzona 4131",
+    "ShortDescription": "Español - An epoxy repair composite for the resurfacing and protection of concrete and stone areas.",
+    "LanguageId": 3,
+    "SeriesId": 4,
+    "IsActive": 1,
+    "Thumbnail": "thumb_4131_1.jpg"
+  },
+  {
+    "ProductId": 12,
+    "Name": "Belzona 4141",
+    "ShortDescription": "Español - A lightweight epoxy repair composite for vertical and overhead concrete and stone repairs.",
+    "LanguageId": 3,
+    "SeriesId": 4,
+    "IsActive": 1,
+    "Thumbnail": "thumb_4141_1.jpg"
+  }
+]

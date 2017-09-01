@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             x:Class="BelzonaMobile.Controls.ProductCarouselTabs"
+             xmlns:CC="clr-namespace:BelzonaMobile.Controls;assembly=BelzonaMobile"
+             >
+	<ContentView.Content>
+    <StackLayout Spacing="0" >
+    <StackLayout Orientation="Horizontal" 
+                           HeightRequest="50" 
+                           BackgroundColor="White"
+                           Spacing="1"
+                            >
+                            <CC:FAButton FontSize="30" x:Name="Tab0" BackgroundColor="{DynamicResource BelzonaSilver}" Clicked="Handle_Clicked" Text="{x:Static CC:FA.FAInfoCircle}" HorizontalOptions="FillAndExpand" />
+                            <CC:FAButton FontSize="30" x:Name="Tab1" BackgroundColor="{DynamicResource BelzonaOrange}" Clicked="Handle_Clicked" Text="{x:Static CC:FA.FAFilesO}" HorizontalOptions="FillAndExpand" />
+                            <CC:FAButton FontSize="30" x:Name="Tab2" BackgroundColor="{DynamicResource BelzonaOrange}" Clicked="Handle_Clicked" Text="{x:Static CC:FA.FAFilm}" HorizontalOptions="FillAndExpand" />
+                            <CC:FAButton FontSize="30" x:Name="Tab3" BackgroundColor="{DynamicResource BelzonaOrange}" Clicked="Handle_Clicked" Text="{x:Static CC:FA.FAList}" HorizontalOptions="FillAndExpand" />
+                            
+                            </StackLayout>
+                            <BoxView HeightRequest="2" BackgroundColor="{DynamicResource BelzonaOrange}" />
+                            </StackLayout>
+	</ContentView.Content>
+</ContentView>

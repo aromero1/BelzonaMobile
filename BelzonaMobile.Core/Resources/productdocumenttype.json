@@ -1,0 +1,82 @@
+[
+  {
+    "DocumentTypeId": 1,
+    "Name": "Chemical Resistance",
+    "LanguageId": 1
+  },
+  {
+    "DocumentTypeId": 1,
+    "Name": "Resistencia Quimica",
+    "LanguageId": 3
+  },
+  {
+    "DocumentTypeId": 2,
+    "Name": "Product Specification Sheet",
+    "LanguageId": 1
+  },
+  {
+    "DocumentTypeId": 2,
+    "Name": "Hoja de Especificaciones del Producto",
+    "LanguageId": 3
+  },
+  {
+    "DocumentTypeId": 3,
+    "Name": "Instructions for Use",
+    "LanguageId": 1
+  },
+  {
+    "DocumentTypeId": 3,
+    "Name": "Instrucciones de Uso",
+    "LanguageId": 3
+  },
+  {
+    "DocumentTypeId": 4,
+    "Name": "SDS Base",
+    "LanguageId": 1
+  },
+  {
+    "DocumentTypeId": 4,
+    "Name": "SDS Base",
+    "LanguageId": 3
+  },
+  {
+    "DocumentTypeId": 5,
+    "Name": "SDS Soolidifier",
+    "LanguageId": 1
+  },
+  {
+    "DocumentTypeId": 5,
+    "Name": "SDS Solidificador",
+    "LanguageId": 3
+  },
+  {
+    "DocumentTypeId": 6,
+    "Name": "SDS HGS Base",
+    "LanguageId": 1
+  },
+  {
+    "DocumentTypeId": 6,
+    "Name": "SDS HGS Base",
+    "LanguageId": 3
+  },
+  {
+    "DocumentTypeId": 7,
+    "Name": "SDS HGS Solidifier",
+    "LanguageId": 1
+  },
+  {
+    "DocumentTypeId": 7,
+    "Name": "SDS HGS Solidificador",
+    "LanguageId": 3
+  },
+  {
+    "DocumentTypeId": 8,
+    "Name": "Product Flyer",
+    "LanguageId": 1
+  },
+  {
+    "DocumentTypeId": 8,
+    "Name": "Folleto de Producto",
+    "LanguageId": 3
+  }
+]
